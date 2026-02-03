@@ -16,7 +16,7 @@ export default function Contact() {
           text-base md:text-lg
         "
       >
-        <ContactLink href="mailto:your@email.com">Email</ContactLink>
+        <ContactLink href="mailto:appdev.adrian@gmail.com">Email</ContactLink>
 
         <ContactLink href="https://m.me/YOUR_PAGE_USERNAME" external>
           Messenger

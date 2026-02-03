@@ -1,16 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
-
-export const metadata = {
-  title: "Adrian Karlo Siangco | Full-Stack Developer",
-  description:
-    "Full-stack developer building secure, scalable web applications.",
-};
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export default function RootLayout({
   children,
@@ -18,15 +9,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body
-        className={`
-            ${inter.className}
-            bg-black
-            text-slate-100
-            transition-colors duration-300
-          `}
-      >
+    <html lang="en" className="bg-black">
+      <head>
+        <meta name="theme-color" content="#000000" />
+      </head>
+      <body className={`${inter.className} bg-black text-slate-100`}>
         {children}
       </body>
     </html>
