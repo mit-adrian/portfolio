@@ -41,10 +41,10 @@ export default function HiringFAQ() {
 
   return (
     <section className="pb-24">
-      {/* Header — aligned with other sections */}
-      <h2 className="text-3xl font-semibold mb-4">| Hiring FAQ</h2>
+      {/* Header */}
+      <h2 className="text-3xl font-semibold mb-6">| Hiring FAQ</h2>
 
-      {/* FAQ Items — constrained width */}
+      {/* FAQ list */}
       <div className="space-y-4">
         {faqs.map((faq, index) => {
           const isOpen = openIndexes.includes(index);
@@ -53,26 +53,27 @@ export default function HiringFAQ() {
             <div
               key={index}
               className={`
-                    border-4
-                    overflow-hidden
-                    bg-[#414141]
-                    transition
-                    ${isOpen ? "border-red-600 bg-[#414141]" : "bg-[#414141] border-transparent"}
-                `}
+                border-4
+                bg-[#414141]
+                overflow-hidden
+                transition-all duration-300
+                ${isOpen ? "border-red-600 breathe-red" : "border-transparent"}
+              `}
             >
+              {/* Question */}
               <button
                 onClick={() => toggle(index)}
                 className="
-                    w-full
-                    flex
-                    justify-between
-                    items-center
-                    px-6
-                    py-4
-                    text-left
-                    hover:bg-white/5
-                    transition
-                    "
+                  w-full
+                  flex
+                  items-center
+                  justify-between
+                  px-6
+                  py-4
+                  text-left
+                  hover:bg-white/5
+                  transition
+                "
               >
                 <span
                   className="
@@ -83,31 +84,35 @@ export default function HiringFAQ() {
                     font-semibold
                     tracking-tight
                     text-white
-                    "
+                  "
                 >
                   {faq.question}
                 </span>
+
                 <span
-                  className="
-                        text-2xl
-                        font-light
-                    text-slate-400"
+                  className={`
+                    text-2xl
+                    font-light
+                    transition-colors duration-300
+                    ${isOpen ? "text-red-400" : "text-slate-400"}
+                  `}
                 >
                   {isOpen ? "−" : "+"}
                 </span>
               </button>
 
+              {/* Answer */}
               {isOpen && (
                 <div
                   className="
                     px-6
                     pb-5
                     pt-1
-                    text-slate-400
+                    text-slate-300
                     text-sm
                     md:text-base
                     leading-relaxed
-                    "
+                  "
                 >
                   {faq.answer}
                 </div>
