@@ -18,11 +18,14 @@ export default function Contact() {
       >
         <ContactLink href="mailto:appdev.adrian@gmail.com">Email</ContactLink>
 
-        <ContactLink href="https://m.me/YOUR_PAGE_USERNAME" external>
+        <ContactLink href="https://m.me/1079063291946469" external>
           Messenger
         </ContactLink>
 
-        <ContactLink href="https://www.linkedin.com/in/YOUR_USERNAME/" external>
+        <ContactLink
+          href="https://www.https://www.linkedin.com/in/adrian-karlo-siangco-4aa504281/"
+          external
+        >
           LinkedIn
         </ContactLink>
       </div>
