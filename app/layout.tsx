@@ -21,11 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`
-          ${inter.className}
-          bg-white dark:bg-black
-          text-black dark:text-slate-100
-          transition-colors duration-300
-        `}
+            ${inter.className}
+            bg-black
+            text-slate-100
+            transition-colors duration-300
+          `}
       >
         {children}
       </body>
