@@ -23,7 +23,7 @@ export default function Contact() {
         </ContactLink>
 
         <ContactLink
-          href="https://www.https://www.linkedin.com/in/adrian-karlo-siangco-4aa504281/"
+          href="https://www.linkedin.com/in/adrian-karlo-siangco-4aa504281/"
           external
         >
           LinkedIn
