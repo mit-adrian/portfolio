@@ -2,27 +2,27 @@ export type ProjectStatus = "completed" | "in-progress" | "planned";
 
 export const projects = [
   {
-    title: "Task Manager",
+    title: "Web App w/ High Conversion Rate",
     description:
       "A secure CRUD task management application with user authentication and persistent storage.",
-    tech: ["Next.js", "Express", "PostgreSQL", "JWT"],
+    tech: ["React.js", "Node.js", "Express", "PostgreSQL", "JWT"],
     status: "completed" as ProjectStatus,
-    image: "/projects/task-manager.webp",
-    demo: "#",
+    image: "/projects/project1.png",
+    demo: "https://quick-revamp-and-sample-scorecard.vercel.app/",
     repo: "#",
 
     package: "MVP Web App",
-    priceRange: "$1.5k–$2.5k",
+    priceRange: "$3k-4k",
     optimization: "Speed & Cost",
   },
   {
-    title: "Role-Based Inventory System",
+    title: "Pet Store E-Commerce Platform",
     description:
       "Inventory management system with role-based access control, audit logs, and secure authentication.",
     tech: ["Next.js", "Node.js", "PostgreSQL", "RBAC"],
     status: "in-progress" as ProjectStatus,
-    image: "/projects/inventory.webp",
-    demo: "#",
+    image: "/projects/project2.png",
+    demo: "https://hustlehard-e-commerce.vercel.app/",
     repo: "#",
 
     package: "Business Dashboard",
