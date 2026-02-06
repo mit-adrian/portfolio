@@ -3,7 +3,7 @@ import { Mail, MessageCircle, Linkedin } from "lucide-react";
 export default function Contact() {
   return (
     <section id="contact" className="pb-24 text-center">
-      <h2 className="text-3xl font-semibold mb-4">Let’s Talk</h2>
+      <h2 className="text-3xl font-semibold mb-4">Let’s Start Your Project</h2>
 
       <p className="text-slate-400 mb-10 max-w-xl mx-auto">
         Have a project in mind or want to discuss a collaboration? Reach out

@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
       {/* Background image */}
-      <div className="absolute inset-0 bg-[url('/projects/hero-bg.webp')] bg-cover bg-center pointer-events-none" />
+      <div className="absolute inset-0 bg-[url('/projects/bw-new-bg.webp')] bg-cover bg-center pointer-events-none" />
 
       {/* Top edge shadow */}
       <div

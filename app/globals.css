@@ -55,3 +55,14 @@ body {
 .breathe-red {
   animation: breathe-red 3.5s ease-in-out infinite;
 }
+
+.scroller {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.inner {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+}

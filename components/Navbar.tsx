@@ -115,7 +115,7 @@ export default function Navbar() {
               shadow-[0_0_8px_rgba(239,68,68,0.25)]
             "
           >
-            Let&rsquo;s Talk
+            Contact Me
           </a>
         </div>
       </div>

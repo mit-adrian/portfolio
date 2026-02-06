@@ -1,0 +1,18 @@
+.scroller[data-animated="true"] .inner {
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.inner li {
+  list-style: none;
+  padding: 0.75rem 1.25rem;
+  background: #020617;
+  color: white;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+}
