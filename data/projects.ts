@@ -7,7 +7,7 @@ export const projects = [
       "A secure CRUD task management application with user authentication and persistent storage.",
     tech: ["React.js", "Node.js", "Express", "PostgreSQL", "JWT"],
     status: "completed" as ProjectStatus,
-    image: "/projects/project1.png",
+    image: "/projects/project1.webp",
     demo: "https://quick-revamp-and-sample-scorecard.vercel.app/",
     repo: "#",
 
@@ -21,7 +21,7 @@ export const projects = [
       "Inventory management system with role-based access control, audit logs, and secure authentication.",
     tech: ["Next.js", "Node.js", "PostgreSQL", "RBAC"],
     status: "in-progress" as ProjectStatus,
-    image: "/projects/project2.png",
+    image: "/projects/project2.webp",
     demo: "https://hustlehard-e-commerce.vercel.app/",
     repo: "#",
 
@@ -30,16 +30,16 @@ export const projects = [
     optimization: "Quality & Cost",
   },
   {
-    title: "E-Commerce Dashboard",
+    title: "Stock Miner w/ AI Analytics",
     description:
-      "Admin dashboard for managing products, orders, and users with analytics and reporting features.",
+      "A full-stack financial dashboard with an AI-powered Q&A system that analyzes market data and documents to deliver insights, charts, and source-backed answers.",
     tech: ["React", "Node.js", "PostgreSQL", "Chart.js"],
-    status: "planned" as ProjectStatus,
-    image: "/projects/dashboard.webp",
-    demo: "#",
+    status: "in-progress" as ProjectStatus,
+    image: "/projects/project3.webp",
+    demo: "https://stock-miner-theta.vercel.app/",
     repo: "#",
 
-    package: "Production System",
+    package: "Financial Analytics",
     priceRange: "$5k+",
     optimization: "Quality & Scale",
   },
