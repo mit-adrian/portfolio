@@ -20,20 +20,17 @@ export default function About() {
         <div>
           <h2 className="text-3xl font-semibold mb-6">| About Me</h2>
           <p className="text-slate-400 leading-relaxed">
-            I’m a full-stack developer focused on building secure and scalable
-            web applications. I work across frontend, backend, databases, and
-            authentication systems. I’m particularly interested in real-world
-            platforms such as dashboards, inventory systems, and
-            security-focused applications. I’m a full-stack developer focused on
-            building secure and scalable web applications. I work across
-            frontend, backend, databases, and authentication systems. I’m
-            particularly interested in real-world platforms such as dashboards,
-            inventory systems, and security-focused applications. I’m a
-            full-stack developer focused on building secure and scalable web
-            applications. I work across frontend, backend, databases, and
-            authentication systems. I’m particularly interested in real-world
-            platforms such as dashboards, inventory systems, and
-            security-focused applications.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+            aliquam reiciendis nostrum ab ratione facere provident iusto nisi
+            accusamus corrupti, reprehenderit libero sed ipsa, neque rem amet
+            pariatur quos itaque? Doloribus, voluptate. Voluptas, quisquam.
+            Adipisci, voluptate. Voluptas, quisquam. Adipisci, voluptate.
+            Voluptas, quisquam. Adipisci, voluptate. Voluptas, quisquam.
+            Adipisci, voluptate. Voluptas, quisquam. Adipisci, voluptate.
+            Voluptas, quisquam. Adipisci, voluptate. Voluptas, quisquam.
+            Adipisci, voluptate. Voluptas, quisquam. Adipisci, voluptate.
+            Voluptas, quisquam. Adipisci, voluptate. Voluptas, quisquam.
+            Adipisci.
           </p>
         </div>
 
