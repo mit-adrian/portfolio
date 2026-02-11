@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [langOpen, setLangOpen] = useState(false);
@@ -19,9 +20,9 @@ export default function Navbar() {
     <nav className="absolute top-0 left-0 w-full z-50 bg-transparent">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Branding */}
-        <span className="font-semibold text-white drop-shadow-md">
-          @appdev.adrian
-        </span>
+        <button>
+          <Image src="/favicon.ico" alt="Brand Logo" width={40} height={40} />
+        </button>
 
         <div className="flex items-center gap-4 relative">
           {/* Language Switcher */}
