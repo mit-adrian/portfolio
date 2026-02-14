@@ -21,11 +21,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Branding */}
         <button>
-<<<<<<< HEAD
-          <Image src="/favicon.ico" alt="Brand Logo" width={40} height={40} />
-=======
           <Image src="/favicon.ico" alt="Brand Logo" width={64} height={64} />
->>>>>>> dev
         </button>
 
         <div className="flex items-center gap-4 relative">
