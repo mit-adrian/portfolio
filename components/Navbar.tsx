@@ -101,20 +101,39 @@ export default function Navbar() {
             )}
           </div>
 
+          {/* CV Button */}
+          <a
+            href="cv/Adrian_Karlo_Siangco_FullStack_Developer_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+            border border-white/30
+            hover:bg-white/10
+            text-white
+            text-sm
+            px-5 py-2
+            rounded-md
+            font-medium
+            transition
+          "
+          >
+            View CV
+          </a>
+
           {/* CTA */}
           <a
             href="#contact"
             className="
-              bg-red-600
-              hover:bg-red-500
-              text-white 
-              text-sm 
-              px-5 py-2 
-              rounded-md 
-              font-semibold
-              transition
-              shadow-[0_0_8px_rgba(239,68,68,0.25)]
-            "
+            bg-red-600
+            hover:bg-red-500
+            text-white 
+            text-sm 
+            px-5 py-2 
+            rounded-md 
+            font-semibold
+            transition
+            shadow-[0_0_8px_rgba(239,68,68,0.25)]
+          "
           >
             Contact Me
           </a>
