@@ -25,7 +25,7 @@ export default function Navbar() {
         </button>
 
         <div className="flex items-center gap-4 relative">
-          {/* Language Switcher */}
+          {/* Language Switcher
           <div className="relative">
             <button
               onClick={() => setLangOpen((prev) => !prev)}
@@ -70,6 +70,7 @@ export default function Navbar() {
                 >
                   {darkMode ? "🌙" : "☀️"}
                 </button>
+                
                 <button
                   onClick={() => {
                     setLanguage("EN");
@@ -99,7 +100,7 @@ export default function Navbar() {
                 </button>
               </div>
             )}
-          </div>
+          </div> */}
 
           {/* CV Button */}
           <a
