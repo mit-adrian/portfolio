@@ -1,20 +1,20 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import Image from "next/image";
 
 export default function Navbar() {
-  const [langOpen, setLangOpen] = useState(false);
-  const [language, setLanguage] = useState<"EN" | "FIL">("EN");
-  const [darkMode, setDarkMode] = useState(true);
+  // const [langOpen, setLangOpen] = useState(false);
+  // const [language, setLanguage] = useState<"EN" | "FIL">("EN");
+  // const [darkMode, setDarkMode] = useState(true);
 
-  const toggleTheme = () => {
-    const root = document.documentElement;
-    const isDark = root.classList.toggle("dark");
-    setDarkMode(isDark);
+  // const toggleTheme = () => {
+  //   const root = document.documentElement;
+  //   const isDark = root.classList.toggle("dark");
+  //   setDarkMode(isDark);
 
-    localStorage.setItem("theme", isDark ? "dark" : "light");
-  };
+  //   localStorage.setItem("theme", isDark ? "dark" : "light");
+  // };
 
   return (
     <nav className="absolute top-0 left-0 w-full z-50 bg-transparent">
