@@ -19,21 +19,27 @@ export default function About() {
       <div className="grid gap-12 md:grid-cols-2 items-center mb-20">
         <div>
           <h2 className="text-3xl font-semibold mb-6">| About Me</h2>
-          <p className="text-slate-400 leading-relaxed">
-            I’m a full-stack developer focused on building secure and scalable
-            web applications. I work across frontend, backend, databases, and
-            authentication systems. I’m particularly interested in real-world
-            platforms such as dashboards, inventory systems, and
-            security-focused applications. I’m a full-stack developer focused on
-            building secure and scalable web applications. I work across
-            frontend, backend, databases, and authentication systems. I’m
-            particularly interested in real-world platforms such as dashboards,
-            inventory systems, and security-focused applications. I’m a
-            full-stack developer focused on building secure and scalable web
-            applications. I work across frontend, backend, databases, and
-            authentication systems. I’m particularly interested in real-world
-            platforms such as dashboards, inventory systems, and
-            security-focused applications.
+          <p className="text-slate-400 leading-relaxed text-justify">
+            I&apos;m a full-stack developer from the Philippines who enjoys
+            building secure and scalable web applications that solve real-world
+            problems. My experience includes collaborating closely with clients
+            and working with teams, whether developing systems from scratch or
+            by revamping and modernizing existing systems. I work across
+            frontend, backend, databases and authentication systems, making sure
+            every part of the system is structured, secure, and reliable.
+            <br />
+            <br />
+            As a graduate-level researcher, I approach development with
+            analytical thinking and a commitment to quality and professional
+            standards, designing systems that are secure, maintainable, and
+            aligned with enterprise best practices.
+            <br />
+            <br />
+            My goal is to build systems that are secure, scalable, and
+            thoughtfully engineered for long-term success. I take pride in
+            delivering solutions that align with business goals and
+            collaborative partnerships, while elevating the overall quality,
+            structure, and reliability of the product.
           </p>
         </div>
 
