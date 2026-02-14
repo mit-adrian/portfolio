@@ -57,9 +57,9 @@ export default function Hero() {
           "
           >
             Adrian
-          </span>
-          , a full-stack developer — focused on clean architecture, security,
-          and real-world systems.
+          </span>{" "}
+          ── your friendly, modern full-stack developer building clean,
+          structured, secure, and production-ready systems.
         </p>
 
         <div className="flex gap-4">
