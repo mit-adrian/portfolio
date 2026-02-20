@@ -5,7 +5,6 @@ import HiringFAQ from "@/components/HiringFAQ";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import InfiniteScroller from "@/components/InfinteScroller";
 
 export default function Home() {
   return (

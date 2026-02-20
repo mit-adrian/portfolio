@@ -1,0 +1,53 @@
+@layer utilities {
+  /* Animations */
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    15% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes breathe-red {
+    0% {
+      box-shadow: 0 0 0 rgba(239, 68, 68, 0);
+      opacity: 0.92;
+    }
+    50% {
+      box-shadow: 0 0 14px rgba(239, 68, 68, 0.35);
+      opacity: 1;
+    }
+    100% {
+      box-shadow: 0 0 0 rgba(239, 68, 68, 0);
+      opacity: 0.92;
+    }
+  }
+
+  /* Utility classes */
+  .fade {
+    animation: fade 15s linear infinite;
+  }
+
+  .breathe-red {
+    animation: breathe-red 3.5s ease-in-out infinite;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
